@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Rubik&display=swap');
+
+
+body{
+    background-color: #293251;
+    font-family: 'Montserrat', monospace ;
+    font-size: 12px;
+    font-weight: 800;
+    font-style: normal;
+    line-height: 18px;
+}
+
+span{
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    font-style: normal;
+    line-height: 18px;
+}
+.container{
+    width: 300px;    
+    background-color: #FFF;
+    
+    display: block;
+    margin: 0 auto;
+    
+    border-radius: 10px;
+    padding-bottom : 50px;
+}
+
+.app-title{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px 10px 0 0;
+}
+
+.app-title p{
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    font-size: 1.2em;
+    color: #293251;
+}
+
+.notification{
+    background-color: #f8d7da;
+    display: none;
+}
+
+.notification p{
+    color: #721c24;
+    font-size: 1.2em;
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.weather-container{
+    width: 300px;
+    height: 260px;
+    background-color: #F4F9FF;
+}
+
+.weather-icon{
+    width: 300px;
+    height: 128px;
+}
+
+.weather-icon img{
+    display: block;
+    margin: 0 auto;
+}
+
+.temperature-value{
+    width: 300px;
+    height:60px;
+}
+
+.temperature-value p{
+    padding: 0;
+    margin: 0;
+    color: #293251;
+    font-size: 4em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.temperature-value p:hover{
+    
+}
+
+.temperature-value span{
+    color: #293251;
+    font-size: 0.5em;
+}
+
+.temperature-description{
+    
+}
+
+.temperature-description p{
+    padding: 8px;
+    margin: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.location{
+    
+}
+
+.location p{
+    margin: 0;
+    padding: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.card{
+    border-radius: 10px;
+}
+#cardheader{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px; 
+    background-color: #FFF;
+    color: #293251;
+    text-align: center;
+    padding: 10px;
+}
+.card-body{
+    background-color: rgb(218, 255, 244);
+    color: #293251;
+    padding: 10px;
+    text-align: center;
+}
+#footer{
+    background-color: #FFF;
+    color: #293251;
+    text-align: center;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px; 
+}
+
+
